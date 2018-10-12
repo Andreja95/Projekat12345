@@ -1,0 +1,26 @@
+client - server arhitektura
+
+http protokol
+
+mvc design pattern
+
+spring boot + web, security, h2
+
+h2 - in-memory baza podataka
+spring data - spring modul, olaksava rad sa bazom
+hibernate - orm (object-relation mapping) tehnologija
+apache tomcat - application server
+maven - alat za build java aplikacije
+jsp - view tehnologija
+
+paketi u programu:
+- config: konfiguracija springa
+  - BasicAuthEntryPoint, SecurityConfig - podesavanja vezana za security aplikacije
+  - WebConfig - podesavanja Spring MVC modula
+  - WebAppinitializer - inicijalizacija Spring MVC modula i podesavanje Spring dispatcher servlet-a
+- controller: kontroleri
+- model: entiteti baze, odavde se mapiraju u tabele baze
+- repository: metode za rad sa entitetima
+- WEB-INF/jsp - jsp fajlovi
+- WEB-INF/css - css fajlovi
+- import.sql - sql kod za popunjavanje baze
